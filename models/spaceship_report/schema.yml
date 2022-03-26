@@ -7,7 +7,7 @@ models:
     columns:
       - name: Transported 
         description: "If transported or not"
-      - name: Count
+      - name: Frequency
         description: "Frequency count"
 
   - name: homeplanet_count 
@@ -17,7 +17,7 @@ models:
         description: "Distinct Passenger's Planet"
       - name: Transported
         description: "If transported or not"
-      - name: Count
+      - name: Frequency
         description: "Frequency count"
 
   - name: destination_count 
@@ -27,5 +27,5 @@ models:
         description: "Distinct Passenger's destination"
       - name: Transported
         description: "If transported or not"
-      - name: Count
+      - name: frequency
         description: "Frequency count"
