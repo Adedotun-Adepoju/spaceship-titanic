@@ -1,0 +1,31 @@
+
+version: 2
+
+models:
+  - name: transported_count
+    description: "Contains information about the number of passengers that were  and those that were not transported"
+    columns:
+      - name: Transported 
+        description: "If transported or not"
+      - name: Count
+        description: "Frequency count"
+
+  - name: homeplanet_count 
+    description: "Contains information about the planet of the passengers and if they have been transported or not"
+    columns:
+      - name: HomePlanet
+        description: "Distinct Passenger's Planet"
+      - name: Transported
+        description: "If transported or not"
+      - name: Count
+        description: "Frequency count"
+
+  - name: destination_count 
+    description: "Contains information about the destination of the passengers and if they have been transported or not"
+    columns:
+      - name: Destination
+        description: "Distinct Passenger's destination"
+      - name: Transported
+        description: "If transported or not"
+      - name: Count
+        description: "Frequency count"
